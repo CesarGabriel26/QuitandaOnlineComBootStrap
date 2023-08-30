@@ -1,0 +1,196 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quitanda Online</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="svg/basket.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/Root.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body data-bs-theme="dark" >
+
+    <header class=" sticky-top ">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand fs-2">
+                    <i class="bi bi-basket"></i>
+                    Quitanda Online
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+                <div class="navbar-collapse collapse justify-content-between " id="Menu">
+                    <div class="navbar-nav">
+                        <a href="" class="nav-link">Principal</a>
+                        <a href="html/Contato.html" class="nav-link">Contato</a>
+                    </div>
+                    <div class="navbar-nav">
+                        <a href="html/Cadastro.html" class="nav-link">Quero me cadastrar</a>
+                        <a href="html/Acessar.html" class="nav-link">Entrar</a>
+                        <a href="" class="nav-link"><i class="bi bi-bell"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="container ">
+
+        <section id="meucarrossel" class="carousel carousel-dark slide mt-3" data-bs-ride="carousel">
+            <!--* Indicadores do banner-->
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="1"></button>
+            </div>
+            <!--* Lista de imagens - Banners-->
+            <div class="carousel-inner">
+                <!--! imagens !-->
+                <!--? imagem 1-->
+                <div class="carousel-item overflow-hidden active" data-bs-interval="10000">
+                    <img src="https://st3.depositphotos.com/1044737/16959/i/450/depositphotos_169593726-stock-photo-fruits-fruit-food-collection-background.jpg"
+                        class="carousel-image " alt="">
+
+                    <div class="carousel-caption" style="background-color: rgba(255, 255, 255, 0.57);">
+
+                        <h4 class="text-light text-bg-dark p-2 m-auto mb-5 text-uppercase " style="width: fit-content;">
+                            black friday</h4>
+
+                        <p class="text-black fs-1 text-uppercase">frete grátis</p>
+                        <p class="text-black text-uppercase">para pedidos acima de R$ 50,00</p>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item overflow-hidden " data-bs-interval="10000">
+                    <img src="https://naturalbrasil.com.br/wp-content/uploads/2019/03/Banner-Polpas-De-Frutas-Natural-Brasil-1620x650.jpg"
+                        class="carousel-image" alt="">
+
+                    <div class="carousel-caption" style="background-color: rgba(255, 255, 255, 0.57);">
+
+                        <h4 class="text-light text-bg-dark p-2 m-auto mb-5 text-uppercase " style="width: fit-content;">
+                            black friday</h4>
+
+                        <p class="text-black fs-1 text-uppercase">frete grátis</p>
+                        <p class="text-black text-uppercase">para pedidos acima de R$ 50,00</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#meucarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#meucarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </section>
+
+        <hr>
+
+        <div class="row justify-content-between align-items-center  ">
+            <div class="
+                d-flex search 
+                col-12 col-lg-5
+            ">
+                <input placeholder="Pesquisar" class="form-control rounded-end-0" type="text" name="" id="Nome">
+                <button class="btn btn-warning rounded-0 rounded-end "><i class="bi bi-search col-2 "></i></button>
+            </div>
+
+            <div class="
+                d-flex align-items-center justify-content-center 
+                col-12 col-lg-5 
+                mt-2 mt-lg-0 mt-md-2
+            ">
+                <ul class="pagination d-flex justify-content-center m-0 me-3">
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                </ul>
+                <select class="form-select">-- Com estilização
+                    <option value="10">Ordenar Pelo nome</option>
+                </select>
+            </div>
+        </div>
+
+        <hr>
+
+        <section class="row gap-0 " id="ContainerCards">
+            
+            
+        </section>
+
+        <hr>
+
+        <div class="row justify-content-end align-items-center  ">
+
+            <div class="
+                d-flex align-items-center justify-content-center 
+                col-12 col-lg-5 
+                mt-2 mt-lg-0 mt-md-2
+            ">
+                <ul class="pagination d-flex justify-content-center m-0 me-3">
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                </ul>
+                <select class="form-select">-- Com estilização
+                    <option value="10">Ordenar Pelo nome</option>
+                </select>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="m-0 mt-3 row justify-content-around text-center align-items-center p-3">
+
+        <p class="col-12 col-lg-4">
+            &copy; - Quitanda Online Ltda Me Rua Virtual Inexistente 171, Computlândia/PC CNPJ XX.XXX.XXX/XXX-XX
+        </p>
+
+        <ul class="col-12 col-lg-4 list-unstyled ">
+            <li>Politicas de Privacidade</li>
+            <li>Termos de Uso</li>
+            <li>Quem Somos</li>
+            <li>Trocas e Devoluções</li>
+        </ul>
+        
+        <ul class="col-12 col-lg-4  list-unstyled">
+            <li><h6>Contato pelo site</h5></li>
+            <li>E-mail: email@SuperReal.com</li>
+            <li>Telefone: (XX) XXXXX-XXXX</li>
+        </ul>
+
+    </footer>
+
+    <script src="js/Cards.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
