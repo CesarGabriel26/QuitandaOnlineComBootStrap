@@ -5,3 +5,20 @@
 .search {
     height: 40px;
 }
+
+.card-img{
+    cursor: pointer;
+}
+
+.CuppomInput {
+    height: 40px;
+}
+
+
+.CuppomCard {
+    border: 2px solid var(--bs-warning);
+}
+
+.Total-Cards {
+    border-bottom: 2px solid var(--bs-warning);
+}
